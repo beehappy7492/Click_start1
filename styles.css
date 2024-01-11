@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d2e5c9; /* Light green for a forest feel */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #265128; /* Dark green for header */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #265128; /* Dark green for headers */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+footer {
+    background-color: #265128; /* Dark green for footer */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #265128; /* Dark green for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1a3d22; /* Darker green on hover */
+}
