@@ -13,8 +13,12 @@ header {
     padding: 20px;
 }
 
-h1, h2 {
+h1 {
     color: #d2e5c9; /* Light green for headers */
+}
+
+h2{
+    color: #658d51; /* darker green for headers */
 }
 
 .flex-container{
