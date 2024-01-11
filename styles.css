@@ -1,8 +1,9 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #d2e5c9; /* Light green for a forest feel */
+    height: 100%;
+    width: 100%;
     margin: 0;
-    padding: 0;
 }
 
 header {
@@ -13,10 +14,17 @@ header {
 }
 
 h1, h2 {
-    color: #265128; /* Dark green for headers */
+    color: #d2e5c9; /* Light green for headers */
+}
+
+.flex-container{
+    display:flex; /*Hail flexbox*/
+    flex-direction: column;
+    align-items: center;
 }
 
 section {
+    width: 90%;
     margin: 20px;
     padding: 20px;
     background-color: #ffffff; /* White background for sections */
@@ -24,22 +32,33 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
 }
 
+nav{
+    text-align: center;
+    flex: 1 1 0%;
+    background-color: #102411; /* darker green to stand out*/
+    padding-top: 30px;
+    text-align: center;
+    padding: 16px 8px;
+    width: 15%;
+    border-radius: 15px;
+}
+
 footer {
     background-color: #265128; /* Dark green for footer */
     color: #ffffff; /* White text */
     text-align: center;
-    padding: 10px;
-    position: fixed;
+    padding: 10px 0px;
     bottom: 0;
     width: 100%;
+    position: fixed;
 }
 
 a {
-    color: #265128; /* Dark green for links */
+    color: #6da14e; /* Light green for links */
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: #1a3d22; /* Darker green on hover */
+    color: #296136; /* Darker green on hover */
 }
